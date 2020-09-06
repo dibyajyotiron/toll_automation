@@ -40,4 +40,7 @@
 5.  There are two types of tokens, admin tokens, and toll tokens. If a toll needs to be created, that can only be done by an admin, for better security, these tokens can be rotated every 24 hours, for simplicity, that is not present in the api. For logging in a toll, toll token needs to be specified, or admin token can also work, this way any raspberry pie system/third party systems can be integrated for automation without the need of human interference.
 
 6.  ## Postman collection
+
     - https://documenter.getpostman.com/view/3985852/TVCiSRa3#bb7e4969-a59d-4ebc-9816-a3fc6c171c1f
+
+7.  For running the app in windows 10, do `npm i`, followed by creation of .env file with `adminToken, tollToken, mongoURI` keys and proper values, then run npm run dev. For using linux/mac, run `npm run dev-linux`.
