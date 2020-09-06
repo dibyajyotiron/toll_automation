@@ -1,6 +1,7 @@
 1.  What routes should be there?
 
-    - Fetch receipt if exists for that day!!
+    - Logging in using a toll's token or using admin token, to ensure from which toll a vehicle got registered.
+    - Creation of a toll by an admin only.
     - Create receipt for a given vrn for a given day!!
     - For a given receipt and type of direction (roundAllowed or one way, i.e north/south), check if a vehicle is allowed to pass!
 
