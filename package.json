@@ -1,0 +1,34 @@
+{
+	"name": "content_stack",
+	"version": "0.0.1",
+	"description": "A NodeJS application for automating tolls.",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "set NODE_ENV=development&& nodemon app.js",
+		"prod": "set NODE_ENV=production&& nodemon app.js",
+		"server": "nodemon app.js"
+	},
+	"author": "Dibyajyoti Ghosal",
+	"license": "MIT",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"colors": "^1.4.0",
+		"config": "^3.3.1",
+		"cors": "^2.8.5",
+		"dotenv": "^5.0.1",
+		"express": "^4.17.1",
+		"express-async-errors": "^3.1.1",
+		"joi": "^14.3.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.10.0",
+		"morgan": "^1.10.0",
+		"validator": "^10.11.0",
+		"winston": "^3.3.3"
+	},
+	"devDependencies": {
+		"prettier": "2.1.1",
+		"supertest": "^4.0.2"
+	}
+}
