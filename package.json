@@ -1,5 +1,5 @@
 {
-	"name": "content_stack",
+	"name": "toll_automation",
 	"version": "0.0.1",
 	"description": "A NodeJS application for automating tolls.",
 	"main": "app.js",
