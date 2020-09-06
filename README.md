@@ -20,7 +20,7 @@
       - updatedAt - 4 bytes
       - \_\_v - 8 bytes
 
-      - Avg size = 40 bytes / document (will differ from mongo's actual size due to their way of storing data in BSON and converting it to JSON for which sizes are no really specified in their docs, actual size can be +- 100 bytes)
+      - Avg size = 40 bytes / document (will differ from mongo's actual size due to their way of storing data in BSON and converting it to JSON for which sizes are not really specified in their docs, actual size can be +- 100 bytes)
 
     - Receipt
 
